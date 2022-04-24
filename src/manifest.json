@@ -7,10 +7,21 @@
 	"content_scripts": [
 		{
 			"matches": [
-				"https://www.green-japan.com/*"
+				"https://www.green-japan.com/client/managements/users/*"
 			],
 			"js": [
 				"content-script.js"
+			],
+			"css": [
+				"custom-style.css"
+			]
+		},
+		{
+			"matches": [
+				"https://www.green-japan.com/client/search*"
+			],
+			"js": [
+				"content-script-list.js"
 			],
 			"css": [
 				"custom-style.css"

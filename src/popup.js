@@ -16,5 +16,9 @@ function init() {
 function saveData() {
 	chrome.storage.sync.set({ color: document.getElementById("color").value });
 	chrome.storage.sync.set({ keyword: document.getElementById("keyword").value });
+
+    var bar = document.getElementById("snackbar");
+    bar.innerText = "保存しました";
+    setTimeout(function(){ bar.innerText = ""; }, 2000);
 }
 
