@@ -7,8 +7,6 @@
 	"background": {
 		"service_worker": "background.js"
 	},
-	"host_permissions": [
-	],
 	"content_scripts": [{
 		"matches": ["https://www.green-japan.com/*"],
 		"js": ["content-script.js"],
