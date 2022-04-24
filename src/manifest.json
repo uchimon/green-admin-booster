@@ -1,12 +1,9 @@
 {
 	"name": "__MSG_appName__",
 	"description": "__MSG_appDesc__",
-	"default_locale": "en",
+	"default_locale": "ja",
 	"version": "0.1",
 	"manifest_version":	3,
-	"background": {
-		"service_worker": "background.js"
-	},
 	"content_scripts": [{
 		"matches": ["https://www.green-japan.com/*"],
 		"js": ["content-script.js"],
