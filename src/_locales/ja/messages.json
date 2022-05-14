@@ -1,10 +1,10 @@
 {
 	"appName": {
-		"message": "Green Admin Boost",
+		"message": "Green Admin Booster",
 		"description": "Improve Green UX."
 	},
 	"appDesc": {
-		"message": "Improve Green UX of Admin pages",
-		"description":"Improve Green UX of Admin pages."
+		"message": "採用サイトGreenのストレスを解消しよう！",
+		"description":"採用サイトGreenの作業効率化をお助けします！"
 	}
 }
